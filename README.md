@@ -42,6 +42,14 @@ Another example: `---------------------` is commonly used in frameworks like [Ll
 
 This gives a bit of an old-school SEO vibe - but it's still a useful approach for AI understanding. An example use case might be wanting to add some keywords which don’t naturally appear in the document, but help to triage and prompt people about the context and relevancy to other materials.
 
+### 8. Add good text descriptions to images and media content
+
+As of today (Jun 2023) mainstream LLMs are still text-based. This means they cannot see or understand the image or media content directly. To help them understand the document better without missing out key information, we should consider adding text annotation and description to the media content. Common document formats like Markdown and HTML already support this (e.g. `![alt text](url)` is used to insert image in Markdown, where the alt text becomes the perfect place for annotations for LLMs).
+
+Note with the progress of multi-modality in LLMs, this may change, e.g. OpenAI may open public access to GPT-4's image capability. However, it's reasonable to expect the image understanding, if available, may be expensive to be used jointly with text input, and the result may not be perfect. Thus having a good text description may be still beneficial. 
+
+Another angle to look at this tip is it's also a good practice for accessibility. Visually impaired people benefit from these auxiliary text information.
+
 ## Closing Words
 This list is a work in progress. If you have tips to add, please feel free to contribute via a PR. Good luck in the AI-Retrieval game!
 
