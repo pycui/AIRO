@@ -43,7 +43,7 @@ For example, `---------------------` is commonly used in frameworks like [LlamaI
 This gives a bit of an old-school SEO vibe - but it's still a useful approach for AI understanding. An example use case might be wanting to add some keywords which don’t naturally appear in the document, but help to triage and prompt people about the context and relevancy to other materials.
 
 ## Closing Words
-This list is a work in progress. If you have tips to add, feel free to contribute via a PR. Good luck in the AI-Retrieval game!
+This list is a work in progress. If you have tips to add, please feel free to contribute via a PR. Good luck in the AI-Retrieval game!
 
 
 
