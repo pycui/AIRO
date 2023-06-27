@@ -33,9 +33,9 @@ Examples include always using proper space to separate words, and avoiding typos
 
 6. Avoid using prompt delimiters in the context text.
 
-An example is when you use ```{context}``` within your prompt to enclose the context text. However, the context may itself contain ``` already, and this can confuse the model and produce worse results. We should avoid any structural patterns appearing in both the prompt and context text (by addressing it either in the prompt or in the document). If you don't have control or don't want to change the prompt, you may want to examine your document to ensure it doesn't contain the same structural pattern.
+An example is when you use \```{context}\``` within your prompt to enclose the context text. However, the context may itself contain ``` already, and this can confuse the model and produce worse results. We should avoid any structural patterns appearing in both the prompt and context text (by addressing it either in the prompt or in the document). If you don't have control or don't want to change the prompt, you may want to examine your document to ensure it doesn't contain the same structural pattern.
 
-For example, --------------------- is commonly used in frameworks like LlamaIndex as a delimiter. Avoid using this in your document.
+For example, `---------------------` is commonly used in frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) as a delimiter. Avoid using this in your document.
 
 7. Consider adding keywords in the document
 
