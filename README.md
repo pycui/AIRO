@@ -5,12 +5,12 @@ In today's world, we are witnessing AI systems like Large Language Models (LLM) 
 
 As an author or maintainer of documents, you may want to learn some tips to help AI understand your document better, thus giving your document better visibility and impact!
 
-# Notes
+## Notes
 The tips below are largely influenced by popular LLM frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) and [Langchain](https://github.com/hwchase17/langchain). However, they should be generally applicable for other LLM retrieval approaches, including vanilla prompts.
 
 It should also be noted that many of the tips here are beneficial for human readers. After all, AI is trained to mimic the way humans communicate through natural languages :)
 
-# Tips
+## Tips
 1. Add structure to your document.
 
 Utilize titles, subtitles, headings in your document to make it well-structured.
@@ -41,7 +41,7 @@ For example, --------------------- is commonly used in frameworks like LlamaInde
 
 This gives a bit of an old-school SEO vibe - but it's still a useful approach for AI understanding. An example use case might be wanting to add some keywords which don’t naturally appear in the document, but help to triage and prompt people about the context and relevancy to other materials.
 
-# Closing Words
+## Closing Words
 This list is a work in progress. If you have tips to add, feel free to contribute via a PR. Good luck in the AI-Retrieval game!
 
 
