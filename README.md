@@ -37,7 +37,7 @@ An example is when you use \```{context}\``` within your prompt to enclose the c
 
 For example, `---------------------` is commonly used in frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) as a delimiter. Avoid using this in your document.
 
-7. Consider adding keywords in the document
+7. Consider adding keywords/synonyms in the document
 
 This gives a bit of an old-school SEO vibe - but it's still a useful approach for AI understanding. An example use case might be wanting to add some keywords which don’t naturally appear in the document, but help to triage and prompt people about the context and relevancy to other materials.
 
