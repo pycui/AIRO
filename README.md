@@ -13,7 +13,7 @@ It should also be noted that many of the tips here are beneficial for human read
 ## Tips
 1. Add structure to your document.
 
-Utilize titles, subtitles, headings in your document to make it well-structured.
+Utilize titles, subtitles, headings in your document to make it well-structured. This often helps truncating your document into smaller pieces.
 
 2. Add metadata to your document directly if possible
 
