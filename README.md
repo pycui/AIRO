@@ -1,12 +1,12 @@
 # AIRO
-AIRO stands for AI-Retrieval-Optimization. This concept is inspired by the term [SEO]([url](https://en.wikipedia.org/wiki/Search_engine_optimization)) (Search Engine Optimization), a practice of optimizing a website or webpage to increase its visibility in search engine results pages (SERPs).
+AIRO stands for AI-Retrieval-Optimization. This concept is inspired by the term [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) (Search Engine Optimization), a practice of optimizing a website or webpage to increase its visibility in search engine results pages (SERPs).
 
 In today's world, we are witnessing AI systems like Large Language Models (LLM) consume natural language documents, retrieve information, and generate outputs based on the input documents. With the appropriate tools, it often works like magic (e.g. imagine asking an LLM to read the entire 10K report of Microsoft and answer questions for you!) However, it's also clear that the properties of the document itself can significantly influence results.
 
 As an author or maintainer of documents, you may want to learn some tips to help AI understand your document better, thus giving your document better visibility and impact!
 
 # Notes
-The tips below are largely influenced by popular LLM frameworks like [LlamaIndex]([url](https://github.com/jerryjliu/llama_index)) and [Langchain]([url](https://github.com/hwchase17/langchain)). However, they should be generally applicable for other LLM retrieval approaches, including vanilla prompts.
+The tips below are largely influenced by popular LLM frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) and [Langchain](https://github.com/hwchase17/langchain). However, they should be generally applicable for other LLM retrieval approaches, including vanilla prompts.
 
 It should also be noted that many of the tips here are beneficial for human readers. After all, AI is trained to mimic the way humans communicate through natural languages :)
 
