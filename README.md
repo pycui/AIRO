@@ -32,11 +32,11 @@ This helps the LLM quickly understand the document. This is particularly useful 
 
 Examples include always using proper space to separate words, and avoiding typos as much as possible. While more sophisticated LLMs tend to work around these issues better, it still degrades performance with weaker LLMs and affects the embeddings. Bad format or typos can make the vector embedding further away from their semantically similar neighbors.
 
-### 6. Avoid using prompt delimiters in the context text.
+### 6. Avoid having prompt delimiters in the context text.
 
 An example is when you use \```{context}\``` within your prompt to enclose the context text. However, the context may itself contain ``` already, and this can confuse the model and produce worse results. We should avoid any structural patterns appearing in both the prompt and context text (by addressing it either in the prompt or in the document). If you don't have control or don't want to change the prompt, you may want to examine your document to ensure it doesn't contain the same structural pattern.
 
-For example, `---------------------` is commonly used in frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) as a delimiter. Avoid using this in your document.
+Another example: `---------------------` is commonly used in frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) as a delimiter. Avoid having this in your document.
 
 ### 7. Consider adding keywords/synonyms in the document
 
