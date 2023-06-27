@@ -13,7 +13,7 @@ It should also be noted that many of the tips here are beneficial for human read
 ## Tips
 1. Add structure to your document.
 
-Utilize titles, subtitles, headings in your document to make it well-structured. This often helps truncating your document into smaller pieces.
+Utilize titles, subtitles, headings in your document to make it well-structured. In addition to help LLMs understand the internal structure and hierarchy of your document, this often helps truncating it into smaller pieces, which is common for AI-retrieval for long documents. 
 
 2. Add metadata to your document directly if possible
 
