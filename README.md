@@ -6,7 +6,7 @@ In today's world, we are witnessing AI systems like Large Language Models (LLM) 
 As an author or maintainer of documents, you may want to adopt some tips to help AI understand your document better, thus giving your document better visibility and impact!
 
 ## Notes
-The tips below are largely influenced by popular LLM frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) and [Langchain](https://github.com/hwchase17/langchain). However, they should be generally applicable for other LLM retrieval approaches, including vanilla prompts.
+The tips below are largely influenced by popular LLM frameworks like [LlamaIndex](https://github.com/jerryjliu/llama_index) and [LangChain](https://github.com/hwchase17/langchain). However, they should be generally applicable for other LLM retrieval approaches, including vanilla prompts.
 
 It should also be noted that many of the tips here are beneficial for human readers. After all, AI is trained to mimic the way humans communicate through natural languages :)
 
